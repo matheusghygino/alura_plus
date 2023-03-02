@@ -167,9 +167,17 @@ body {
 
 @media screen and (max-width: 768px) {
     .container {
+        height: 80vh;
+    }
+    
+}
+
+@media screen and (max-width: 1020px) {
+    .container {
         display: block;
         background-image: none;
-        height: 80vh;
+        height: auto;
+        margin: 50px 0;
     }
 
     .container__imagem {
@@ -181,7 +189,7 @@ body {
     }
 
     .secundario {
-        margin: 0;
+        margin: 75px 0;
         text-align: center;
     }
 
@@ -196,6 +204,4 @@ body {
     .rodape__lista {
         display: block;
     }
-
-    
 }
